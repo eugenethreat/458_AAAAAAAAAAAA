@@ -1,0 +1,30 @@
+idea - "my digital life" 
+
+instrument -- phone 
+performer plugs their phone into aux jack, sets notification volume to max 
+(text to speech reading notifications) 
+(more notifications == higher pitched and louder drone) 
+
+performer screams/makes noises as they feel (stockhausen) 
+
+
+THINGS TO RESEARCH 
+-Supercollider and python -- can you work with live input/python code?
+-android text to speech for alert pings
+
+https://android-developers.googleblog.com/2009/09/introduction-to-text-to-speech-in.html
+https://doc.sccode.org/Classes/UGen.html
+
+tape -- covid alerts or stats or something idk 
+
+
+
+-=-=-=
+workflow: 
+
+android app has a component that listens for notifications + 
+when there is a new notificaiton, send something to the server 
+//how do I go about doing this? 
+//when your phone gets a notif, send an http request and run a function on the server 
+
+server then tells supercollider to raise frequency by 1 + 
